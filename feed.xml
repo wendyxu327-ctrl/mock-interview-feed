@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+<title>模拟面试教练 Mock Interview Coach</title>
+<link>https://wendyxu327-ctrl.github.io/mock-interview-feed</link>
+<description>用双人播客模拟真实面试——面试官 × 候选人示范级金字塔答题 + 教练复盘。中英双语，每次一个岗位一轮。</description>
+<language>zh-cn</language>
+<itunes:author>Mock Interview Coach</itunes:author>
+<atom:link href="https://wendyxu327-ctrl.github.io/mock-interview-feed/feed.xml" rel="self" type="application/rss+xml"/>
+</channel>
+</rss>
