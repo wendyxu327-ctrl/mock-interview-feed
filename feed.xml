@@ -1,11 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom">
-<channel>
-<title>模拟面试教练 Mock Interview Coach</title>
-<link>https://wendyxu327-ctrl.github.io/mock-interview-feed</link>
-<description>用双人播客模拟真实面试——面试官 × 候选人示范级金字塔答题 + 教练复盘。中英双语，每次一个岗位一轮。</description>
-<language>zh-cn</language>
-<itunes:author>Mock Interview Coach</itunes:author>
-<atom:link href="https://wendyxu327-ctrl.github.io/mock-interview-feed/feed.xml" rel="self" type="application/rss+xml"/>
-</channel>
+<rss version="2.0"
+     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+     xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>模拟面试教练 Mock Interview Coach</title>
+    <link>https://wendyxu327-ctrl.github.io/mock-interview-feed</link>
+    <description>用双人播客模拟真实面试——面试官 × 候选人示范级金字塔答题 + 教练复盘。中英双语，每次一个岗位一轮。</description>
+    <language>zh</language>
+    <atom:link href="https://wendyxu327-ctrl.github.io/mock-interview-feed/feed.xml" rel="self" type="application/rss+xml"/>
+    
+
+    <!-- Show artwork -->
+    <image>
+      <url>https://wendyxu327-ctrl.github.io/mock-interview-feed/cover-art.png</url>
+      <title>模拟面试教练 Mock Interview Coach</title>
+      <link>https://wendyxu327-ctrl.github.io/mock-interview-feed</link>
+    </image>
+    <itunes:image href="https://wendyxu327-ctrl.github.io/mock-interview-feed/cover-art.png"/>
+
+    <!-- Podcast player metadata -->
+    <itunes:author>模拟面试教练 Mock Interview Coach</itunes:author>
+    <itunes:summary>用双人播客模拟真实面试——面试官 × 候选人示范级金字塔答题 + 教练复盘。中英双语，每次一个岗位一轮。</itunes:summary>
+    <itunes:category text="Technology"/>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:type>episodic</itunes:type>
+
+    
+    <item>
+      <title>【AI PM 024】Agent基础+Cursor/Trae实现</title>
+      <description>Agent=LLM+Tool+Loop+Memory+Planning,拆解Cursor三层和字节Trae的Builder Mode</description>
+      <pubDate>Wed, 22 Apr 2026 02:38:19 GMT</pubDate>
+      <enclosure url="https://wendyxu327-ctrl.github.io/mock-interview-feed/episodes/2026-04-21-233815.mp3"
+                 length="11203439"
+                 type="audio/mpeg"/>
+      <guid isPermaLink="false">https://wendyxu327-ctrl.github.io/mock-interview-feed/episodes/2026-04-21-233815.mp3</guid>
+      <itunes:duration>11:40</itunes:duration>
+      <itunes:summary>Agent=LLM+Tool+Loop+Memory+Planning,拆解Cursor三层和字节Trae的Builder Mode</itunes:summary>
+    </item>
+    
+  </channel>
 </rss>
